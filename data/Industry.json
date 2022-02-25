@@ -1,0 +1,13 @@
+[
+  { "value": "Aeroespacial", "label": "Aeroespacial" },
+  { "value": "Alimentos", "label": "Alimentos" },
+  { "value": "Arte/Entretenimiento", "label": "Arte/Entretenimiento" },
+  { "value": "Automotriz", "label": "Automotriz" },
+  { "value": "Construcción", "label": "Construcción" },
+  { "value": "Dental", "label": "Dental" },
+  { "value": "Electrodoméstico", "label": "Electrodoméstico" },
+  { "value": "Electrónica", "label": "Electrónica" },
+  { "value": "Inyección de plástico", "label": "Inyección de plástico" },
+  { "value": "Médica", "label": "Médica" },
+  { "value": "Metalurgia / Fundición", "label": "Metalurgia / Fundición" }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "id": 1,
+    "name": "PLA",
+    "process": "Extrusión de filamento (FDM) básico",
+    "features": [
+      "Biodegradable",
+      "Alta dureza",
+      "Resiste temperaturas altas",
+      "Clima extremo"
+    ],
+    "use": ["Moldes", "Fixturas", "Exteriores", "Componentes automotrices"],
+    "prototypes": [
+      "Prototipos detallados",
+      "Producto final",
+      "Prototipos funcionales"
+    ],
+    "industry": ["Arte/Entretenimiento", "Construcción"]
+  },
+  {
+    "id": 2,
+    "name": "ABS",
+    "process": "Extrusión de filamento (FDM) básico",
+    "features": [
+      "Económico",
+      "Resiste temperaturas altas",
+      "Repetibilidad",
+      "Resiste impactos"
+    ],
+    "use": [
+      "Modelos conceptuales",
+      "Herramientas",
+      "Corridas de producción cortas",
+      "Contenedores de líquidos",
+      "Contenedores de líquidos"
+    ],
+    "prototypes": ["Prototipos funcionales"],
+    "industry": ["Automotriz"]
+  },
+  {
+    "id": 3,
+    "name": "PETG",
+    "process": "Extrusión de filamento (FDM) básico",
+    "features": [
+      "Grado industrial",
+      "Resiste químicos",
+      "Resiste radiación UV",
+      "Variedad de colores"
+    ],
+    "use": [
+      "Mecanismos complejos",
+      "Componentes automotrices",
+      "Contenedores de líquidos",
+      "Corridas de producción cortas"
+    ],
+    "prototypes": ["Prototipos para pruebas"],
+    "industry": ["Automotriz"]
+  },
+  {
+    "id": 4,
+    "name": "PCL 100",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Foodsafe",
+      "Biofabricación (no-permanente)",
+      "Biodegradable",
+      "Resiste impactos"
+    ],
+    "use": [
+      "Contenedores de líquidos",
+      "Modelos conceptuales",
+      "Prótesis",
+      "Cubiertas de protección"
+    ],
+    "prototypes": ["Prototipos detallados"],
+    "industry": ["Alimentos", "Médica"]
+  },
+  {
+    "id": 5,
+    "name": "HIPS",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Alta dureza",
+      "Terminado fino",
+      "Soluble",
+      "Variedad de colores"
+    ],
+    "use": [
+      "Material de soporte",
+      "Cubiertas de protección",
+      "Corridas de producción cortas",
+      "Cubiertas para celular"
+    ],
+    "prototypes": ["Prototipos para pruebas", "Producto final"],
+    "industry": ["Arte/Entretenimiento"]
+  },
+  {
+    "id": 6,
+    "name": "PC",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Durabilidad mecánica",
+      "Resiste temperaturas altas",
+      "Resiste fracturas",
+      "Resiste impactos"
+    ],
+    "use": ["Fixturas", "Herramientas", "Modelos conceptuales", "Engranes"],
+    "prototypes": ["Prototipos funcionales"],
+    "industry": ["Construcción"]
+  },
+  {
+    "id": 7,
+    "name": "Nylon6 CoPA",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Resiste temperaturas altas",
+      "Ligero",
+      "Repetibilidad",
+      "Puede ser maquinado"
+    ],
+    "use": [
+      "Equipo deportivo",
+      "Exteriores",
+      "Cubiertas de protección",
+      "Equipo deportivo"
+    ],
+    "prototypes": ["Prototipos para pruebas"],
+    "industry": ["Dental"]
+  },
+  {
+    "id": 8,
+    "name": "TPU (Flexible) 95 A",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": ["Flexible", "Ligero", "Resiste impactos", "Económico"],
+    "use": [
+      "Partes que se doblan",
+      "Cubiertas para celular",
+      "Ojales",
+      "Equipo electrónico"
+    ],
+    "prototypes": ["Producto final"],
+    "industry": ["Inyección de plástico"]
+  },
+  {
+    "id": 9,
+    "name": "XT Copolyester (FDA) (Foodsafe)",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": ["Foodsafe", "Variedad de colores", "Flexible", "Ligero"],
+    "use": [
+      "Partes que se doblan",
+      "Contenedores de líquidos",
+      "Prótesis",
+      "Exteriores"
+    ],
+    "prototypes": [
+      "Prototipos detallados",
+      "Prototipos funcionales",
+      "Producto final"
+    ],
+    "industry": ["Alimentos", "Médica"]
+  },
+  {
+    "id": 10,
+    "name": "ESD Antiestático",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Antiestático",
+      "Resiste químicos",
+      "Resiste impactos",
+      "Puede ser maquinado"
+    ],
+    "use": [
+      "Equipo electrónico",
+      "Cubiertas para celular",
+      "Fixturas",
+      "Fixturas"
+    ],
+    "prototypes": ["Producto final"],
+    "industry": ["Electrónica", "Electrodoméstico"]
+  },
+  {
+    "id": 11,
+    "name": "PP con Fibra de Lana",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Resiste químicos",
+      "Puede ser maquinado",
+      "Ligero",
+      "Clima extremo"
+    ],
+    "use": [
+      "Prótesis",
+      "Modelos conceptuales",
+      "Corridas de producción cortas",
+      "Herramientas"
+    ],
+    "prototypes": ["Prototipos funcionales"],
+    "industry": ["Médica", "Aeroespacial"]
+  },
+  {
+    "id": 12,
+    "name": "ABS Reforzado (ABS ULTRAT)",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Puede ser maquinado",
+      "Resiste impactos",
+      "Variedad de colores",
+      "Repetibilidad"
+    ],
+    "use": [
+      "Herramientas",
+      "Mecanismos complejos",
+      "Equipo deportivo",
+      "Material de soporte"
+    ],
+    "prototypes": ["Prototipos funcionales", "Producto final"],
+    "industry": ["Arte"]
+  },
+  {
+    "id": 13,
+    "name": "PolyCAST (Especial para Fundición)",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Fundición",
+      "Alta dureza",
+      "Resiste impactos",
+      "Grado industrial"
+    ],
+    "use": ["Exteriores", "Moldes", "Engranes", "Mecanismos complejos"],
+    "prototypes": ["Prototipos funcionales, prototipos para pruebas"],
+    "industry": ["Metalurgía/Fundición"]
+  },
+  {
+    "id": 14,
+    "name": "ASA",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": [
+      "Resiste radiación UV",
+      "Clima extremo",
+      "Resistencia media a alcohol",
+      "Variedad de colores"
+    ],
+    "use": [
+      "Equipo deportivo",
+      "Exteriores",
+      "Componentes automotrices",
+      "Modelos conceptuales"
+    ],
+    "prototypes": ["Prototipos funcionales"],
+    "industry": ["Automotriz"]
+  },
+  {
+    "id": 15,
+    "name": "PVB (Polysmooth)",
+    "process": "Extrusión de filamento (FDM) profesional",
+    "features": ["Terminado fino", "Ligero", "Flexible", "Variedad de colores"],
+    "use": [
+      "Mecanismos complejos",
+      "Componentes automotrices",
+      "Corridas de producción cortas",
+      "Moldes"
+    ],
+    "prototypes": [
+      "Prototipos funcionales",
+      "Prototipos detallados",
+      "Prototipos funcionales"
+    ],
+    "industry": ["Aeroespacial"]
+  },
+  {
+    "id": 16,
+    "name": "ABS-M30",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Resiste radiación UV",
+      "Resistencia media a alcohol",
+      "Resiste impactos",
+      "Clima extremo"
+    ],
+    "use": [
+      "Contenedores de líquidos",
+      "Exteriores",
+      "Equipo deportivo",
+      "Ojales"
+    ],
+    "prototypes": [
+      "Producto final",
+      "Prototipos detallados",
+      "Prototipos funcionales"
+    ],
+    "industry": ["Aeroespacial"]
+  },
+  {
+    "id": 17,
+    "name": "PC-ISO",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Resiste temperaturas altas",
+      "Biocompatible",
+      "Clima extremo",
+      "Foodsafe"
+    ],
+    "use": [
+      "Moldes",
+      "Prótesis",
+      "Modelos conceptuales",
+      "Partes que se doblan"
+    ],
+    "prototypes": ["Prototipos funcionales"],
+    "industry": ["Médica"]
+  },
+  {
+    "id": 18,
+    "name": "Nylon",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Resiste abrasión",
+      "Resiste impactos",
+      "Resiste temperaturas altas",
+      "Puede ser maquinado"
+    ],
+    "use": ["Engranes", "Herramientas", "Cubiertas de protección", "Prótesis"],
+    "prototypes": ["Prototipos funcionales"],
+    "industry": ["Electrodoméstico"]
+  },
+  {
+    "id": 19,
+    "name": "ULTEM",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Resiste temperaturas altas",
+      "Ligero",
+      "Retarda el fuego",
+      "Resiste químicos"
+    ],
+    "use": ["Herramientas", "Equipo deportivo", "Modelos conceptuales"],
+    "prototypes": ["Prototipos funcionales"],
+    "industry": ["Automotriz", "Aeroespacial"]
+  },
+  {
+    "id": 20,
+    "name": "PC-ABS",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Durabilidad mecánica",
+      "Resiste temperaturas altas",
+      "Resiste radiación UV",
+      "Resiste químicos"
+    ],
+    "use": [
+      "Componentes automotrices",
+      "Engranes",
+      "Corridas de producción cortas"
+    ],
+    "prototypes": ["Prototipos para pruebas", "Producto final"],
+    "industry": ["Automotriz"]
+  },
+  {
+    "id": 21,
+    "name": "PC-FR",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Retarda el fuego",
+      "Resiste temperaturas altas",
+      "Resiste impactos",
+      "Clima extremo"
+    ],
+    "use": [
+      "Cubiertas de protección",
+      "Equipo deportivo",
+      "Modelos conceptuales"
+    ],
+    "prototypes": ["Prototipos detallados"],
+    "industry": ["Automotriz"]
+  },
+  {
+    "id": 22,
+    "name": "PC-PBT",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Resiste químicos",
+      "Resiste impactos",
+      "Terminado fino",
+      "Resiste radiación UV"
+    ],
+    "use": [
+      "Modelos conceptuales",
+      "Mecanismos complejos",
+      "Corridas de producción cortas"
+    ],
+    "prototypes": ["Prototipos para pruebas"],
+    "industry": ["Automotriz"]
+  },
+  {
+    "id": 23,
+    "name": "PA6-GF",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Alta dureza",
+      "Durabilidad mecánica",
+      "Terminado fino",
+      "Variedad de colores"
+    ],
+    "use": ["Ojales", "Partes que se doblan", "Material de soporte"],
+    "prototypes": ["Prototipos para pruebas"],
+    "industry": ["Construcción"]
+  },
+  {
+    "id": 24,
+    "name": "PA6-CF",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Resiste temperaturas altas",
+      "Clima extremo",
+      "Resiste abrasión",
+      "Resiste fracturas"
+    ],
+    "use": ["Material de soporte", "Ojales", "Cubiertas para celular"],
+    "prototypes": ["Prototipos detallados"],
+    "industry": ["Electrodoméstico"]
+  },
+  {
+    "id": 25,
+    "name": "SS316L",
+    "process": "Extrusión de filamento (FDM) industrial",
+    "features": [
+      "Grado industrial",
+      "Resiste fracturas",
+      "Resiste abrasión",
+      "Exteriores"
+    ],
+    "use": ["Herramientas", "Fixturas", "Cubiertas de protección"],
+    "prototypes": ["Prototipos funcionales"],
+    "industry": ["Automotriz"]
+  }
+]

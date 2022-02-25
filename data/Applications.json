@@ -1,0 +1,64 @@
+[
+  { "value": "Componentes automotrices", "label": "Componentes automotrices" },
+  { "value": "Contenedores de líquidos", "label": "Contenedores de líquidos" },
+  {
+    "value": "Corridas de producción cortas",
+    "label": "Corridas de producción cortas"
+  },
+  {
+    "value": "Cubiertas de protección",
+    "label": "Cubiertas de protección"
+  },
+  {
+    "value": "Engranes",
+    "label": "Engranes"
+  },
+  {
+    "value": "Equipo deportivo",
+    "label": "Equipo deportivo"
+  },
+  {
+    "value": "Equipo electrónico",
+    "label": "Equipo electrónico"
+  },
+  {
+    "value": "Exteriores",
+    "label": "Exteriores"
+  },
+  {
+    "value": "Fixturas",
+    "label": "Fixturas"
+  },
+  {
+    "value": "Herramientas",
+    "label": "Herramientas"
+  },
+  {
+    "value": "Material de soporte",
+    "label": "Material de soporte"
+  },
+  {
+    "value": "Mecanismos complejos",
+    "label": "Mecanismos complejos"
+  },
+  {
+    "value": "Modelos conceptuales",
+    "label": "Modelos conceptuales"
+  },
+  {
+    "value": "Moldes",
+    "label": "Moldes"
+  },
+  {
+    "value": "Ojales",
+    "label": "Ojales"
+  },
+  {
+    "value": "Partes que se doblan",
+    "label": "Partes que se doblan"
+  },
+  {
+    "value": "Prótesis",
+    "label": "Prótesis"
+  }
+]

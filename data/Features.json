@@ -1,0 +1,37 @@
+[
+  { "value": "Alta dureza", "label": "Alta dureza" },
+  { "value": "Antiestático", "label": "Antiestático" },
+  { "value": "Biocompatible", "label": "Biocompatible" },
+  { "value": "Biodegradable", "label": "Biodegradable" },
+  {
+    "value": "Biofabricación (no-permanente)",
+    "label": "Biofabricacion (no-permanente)"
+  },
+  { "value": "Clima extremo", "label": "Clima extremo" },
+  { "value": "Durabilidad mecánica", "label": "Durabilidad mecánica" },
+  { "value": "Económico", "label": "Económico" },
+  { "value": "Flexible", "label": "Flexible" },
+  { "value": "Foodsafe", "label": "Foodsafe" },
+  { "value": "Fundición", "label": "Fundición" },
+  { "value": "Grado industrial", "label": "Grado industrial" },
+  { "value": "Ligero", "label": "Ligero" },
+  { "value": "Puede ser maquinado", "label": "Puede ser maquinado" },
+  { "value": "Repetibilidad", "label": "Repetibilidad" },
+  { "value": "Resiste abrasión", "label": "Resiste abrasión" },
+  { "value": "Resiste fracturas", "label": "Resiste fracturas" },
+  { "value": "Resiste impactos", "label": "Resiste impactos" },
+  { "value": "Resiste químicos", "label": "Resiste químicos" },
+  { "value": "Resiste radiación UV", "label": "Resiste radiación UV" },
+  {
+    "value": "Resiste temperaturas altas",
+    "label": "Resiste temperaturas altas"
+  },
+  {
+    "value": "Resistencia media a alcohol",
+    "label": "Resistencia media a alcohol"
+  },
+  { "value": "Retarda el fuego", "label": "Retarda el fuego" },
+  { "value": "Soluble", "label": "Soluble" },
+  { "value": "Terminado fino", "label": "Terminado fino" },
+  { "value": "Variedad de colores", "label": "Variedad de colores" }
+]
