@@ -19,7 +19,7 @@ const Posts = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
       <Head>
-        <title>{posts.title} - 3D Factory MX</title>
+        <title>{posts[0].title} - 3D Factory MX</title>
         <meta name="description" content={posts.description} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
