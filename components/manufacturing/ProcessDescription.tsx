@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
+import { Markup } from "interweave";
 
 type ProcessDescription = {
   name: string;
   entry: string;
-  subtitle: string;
   content: string;
   applications: string[];
+  entryImg: string;
 };
 
 type Props = {
@@ -26,22 +27,23 @@ const ProcessDescription = (props: Props) => {
           </h2>
           <div className="flex  flex-col lg:flex-row">
             <div className="text-gray-700 lg:w-2/3 my-2">
-              <p className="whitespace-pre-line my-2 animate__animated animate__fadeIn">
-                {props.processDescription.entry}
-              </p>
-              <div className="float-right mr-6 mt-2">
+              <article className="prose lg:prose-xl">
+                <Markup
+                  content={props.processDescription.entry}
+                  className="text-base"
+                />
+              </article>
+              <article className="prose lg:prose-xl">
                 <img
-                  src="https://www.protolabs.com/media/1013213/stereolithography-3d-printing-process-cte-large.png"
-                  className="animate__animated animate__fadeIn w-96 m-6"
+                  src={props.processDescription.entryImg}
+                  className="animate__animated animate__fadeIn w-96 float-right"
                   alt=""
                 />
-              </div>
-              <h2 className="font-semibold text-lg animate__animated animate__fadeIn">
-                {props.processDescription.subtitle}
-              </h2>
-              <p className="whitespace-pre-line my-2 animate__animated animate__fadeIn">
-                {props.processDescription.content}
-              </p>
+                <Markup
+                  content={props.processDescription.content}
+                  className="text-base"
+                />
+              </article>
             </div>
             <div className="px-6 lg:mx-5 mx-1 my-5 py-8 bg-blue-900 text-white lg:w-1/3 lg:h-1/3 animate__animated animate__fadeIn">
               <div className="h2 font-medium text-xl animate__animated animate__fadeIn">

@@ -7,6 +7,7 @@ import Sidebar from "../../../components/layout/Sidebar";
 import { supabase } from "../../../supabaseClient";
 import { InferGetStaticPropsType, GetStaticProps, GetStaticPaths } from "next";
 import Head from "next/head";
+import ProcessOtherInfo from "../../../components/manufacturing/ProcessOtherInfo";
 type Process = {
   id: number;
 };
@@ -29,6 +30,7 @@ const Process = ({
         <ProcessVideo processVideo={processes[0]} />
         <ProcessGuidelines processGuidelines={processes[0]} />
         <ProcessMaterialProperties processMaterialProperties={processes[0]} />
+        <ProcessOtherInfo otherInfo={processes[0]} />
       </Sidebar>
     </>
   );

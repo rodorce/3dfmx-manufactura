@@ -104,7 +104,7 @@ const ProcessGuidelines = (props: Props) => {
   const guidelineText = (title: string, text: string) => (
     <div>
       <h2 className="font-semibold text-lg pb-4">{title}</h2>
-      <p>{text}</p>
+      <p className="whitespace-pre-wrap">{text}</p>
     </div>
   );
 
