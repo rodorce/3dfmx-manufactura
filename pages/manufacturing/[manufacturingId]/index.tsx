@@ -73,6 +73,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
     props: {
       processes: processesResponse.data,
     },
-    revalidate: 60 * 60 * 4,
+    revalidate: 60 * 4,
   };
 };
