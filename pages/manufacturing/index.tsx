@@ -73,7 +73,7 @@ export const getStaticProps: GetStaticProps = async () => {
       materials: materialsResponse.data,
       processes: processesResponse.data,
     },
-    revalidate: 60 * 60 * 4,
+    revalidate: 60 * 4,
   };
 };
 
