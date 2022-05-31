@@ -31,9 +31,11 @@ const SpecificationContent = (props: Props) => {
 
   let specificationsGrid = props.specifications.map((spec, index) => {
     return (
-      <div className="mx-auto lg:w-1/4" key={index}>
+      <div className="mx-auto" key={index}>
         <div className="flex flex-col items-center lg:items-start transform transition duration-500 hover:scale-110">
-          <h2 className="font-bold text-2xl pb-6">{spec.title}</h2>
+          <h2 className="font-bold text-2xl pb-6 text-center lg:text-left">
+            {spec.title}
+          </h2>
         </div>
         {featureList(spec, index)}
       </div>
@@ -41,7 +43,7 @@ const SpecificationContent = (props: Props) => {
   });
 
   return (
-    <div className="flex flex-col lg:flex-row gap-12 py-12 items-center lg:items-start">
+    <div className="flex flex-col lg:flex-row gap-12 py-12 items-center lg:items-start mx-12">
       {specificationsGrid}
     </div>
   );

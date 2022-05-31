@@ -38,7 +38,7 @@ const MaterialDetails = (props: Props) => {
       <div className="flex flex-col lg:flex-row lg:basis-3/8 justify-center items-center lg:items-start animate__animated animate__fadeIn animate__delay-1s">
         <div className="flex flex-col">
           <h2 className="text-2xl font-semibold p-4 flex">
-            Materials in this family
+            Materiales en esta familia
           </h2>
           <DetailsGrid details={props.details} obtainIndex={updateIndex} />
         </div>

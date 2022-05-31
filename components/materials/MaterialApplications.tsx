@@ -42,7 +42,7 @@ const MaterialApplications = (props: Props) => {
 
   return (
     <div className="container container-m-p">
-      <div className="lg:grid lg:grid-cols-6 gap-12 flex flex-col lg:items-start items-center">
+      <div className="lg:mx-12 lg:grid lg:grid-cols-6 gap-12 flex flex-col lg:items-start items-center">
         <div className="col-span-3 flex justify-center flex-col">
           <img src={featuredImg} alt="" />
           <p className="text-xl text-center lg:text-left pt-2">
@@ -51,7 +51,7 @@ const MaterialApplications = (props: Props) => {
         </div>
         <div className="py-6 lg:col-span-3">
           <h2 className="text-4xl font-semibold text-center lg:text-left">
-            Applications
+            Aplicaciones
           </h2>
           <ul className="text-xl font-normal text-center lg:text-left pt-6">
             {applicationsList}
