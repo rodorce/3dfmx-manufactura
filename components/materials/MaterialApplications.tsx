@@ -10,12 +10,14 @@ type MaterialApplications = {
   entryImg: string;
   entryTitle: string;
   entryDesc: string;
+  showApps: boolean;
 };
 
 type FeaturedApplications = {
   featuredImg: string;
   featuredText: string;
   list: string[];
+  showApps: boolean;
 };
 
 const MaterialApplications = (props: Props) => {
@@ -40,7 +42,7 @@ const MaterialApplications = (props: Props) => {
     );
   });
 
-  return (
+  return props.featuredApplications.showApps ? (
     <div className="container container-m-p">
       <div className="lg:mx-12 lg:grid lg:grid-cols-6 gap-12 flex flex-col lg:items-start items-center">
         <div className="col-span-3 flex justify-center flex-col">
@@ -60,6 +62,8 @@ const MaterialApplications = (props: Props) => {
         {entries}
       </div>
     </div>
+  ) : (
+    <></>
   );
 };
 
